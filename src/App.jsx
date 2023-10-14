@@ -17,7 +17,7 @@ import io from 'socket.io-client'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import Peer from 'simple-peer'
 
-const socket = io.connect("https://backend-videochat.onrender.com:5000");
+const socket = io.connect("https://backend-videochat.onrender.com");
 //const socket = io.connect("https://localhost:5000")
 function App() {
 
